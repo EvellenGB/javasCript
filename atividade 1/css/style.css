@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    margin: 0 auto;
+    width: 1300px;
+    height: 650px;
+    background-color: lightgrey;
+}
+.left, .right{
+    width: 50%;
+    height: 100%;
+    border: 1px gray solid;
+}
+.output, .input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    border-bottom: 1px grey solid;
+}
+.active{
+    border-bottom: 2px #fff solid;
+}
+body{
+    background-color: black;
+    color: black;
+}
+*{
+    font-family: sans-serif;
+    margin:0;
+}
